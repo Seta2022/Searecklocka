@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Detta är en XML-fil som beskriver formen (shape) för en bakgrundsbild. -->
+    <gradient
+        android:startColor="#003C96"
+        android:endColor="#00ACC1"
+        android:angle="270"/>
+    <!-- Rundande av hörnen med en radie på 7dp (density-independent pixels) -->
+    <corners android:radius="7dp"/>
+    <!-- Lägga till en kantlinje (border) -->
+    <stroke
+        android:width="3dp"
+        android:color="#FFFFFF"/>
+</shape>
